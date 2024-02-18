@@ -1,0 +1,17 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: py-backstage-ws
+  description: |
+    Python Web App
+  labels:
+    system: python
+    lifecycle: experimental
+    example.com/service-discovery-name: py-backstage-ws
+  annotations:
+    github.com/project-slug: 'dejain4/py-backstage-ws'
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
